@@ -1,8 +1,17 @@
-# React + Vite
+# Insta Reproduction
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project aims to create a mini React component simulating a functional Instagram post, with the goal of mastering the concept of components before tackling something larger.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+***Tasks***
+
+- The heart should be fillable in red ❤️ and the save icon in gold 💛.
+- A mini burger menu 🍔 should also be integrated as shown in the model.
+- The number of likes should increment or decrement based on whether the heart is red or not.
+- Clicking "see more" should be functional.
+- Users should be able to leave a comment, which will appear on the screen under the post (without refreshing the page).
+
+---
+
+Good luck to myself! 💪
