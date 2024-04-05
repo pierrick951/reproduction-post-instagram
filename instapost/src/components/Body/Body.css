@@ -1,0 +1,25 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.imgBodycard {
+  width:100%;
+   height: 500px;
+   object-fit: cover;
+}
+
+.container_ico{
+  padding-block: 10px;
+
+  & img {
+     padding-inline: 10px;
+  } 
+}
+
+.icoSave {
+  transform: translate(192px);
+}

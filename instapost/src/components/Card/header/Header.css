@@ -10,7 +10,7 @@
     background-color: black;
     display: flex;
     align-items: center;
-    padding-block: 15px;
+    padding-block: 12px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
 }
@@ -23,4 +23,10 @@
 
 p {
     padding-inline: 12px;
+}
+
+
+.icoMenu {
+    transform: translate(215px);
+    
 }

@@ -1,5 +1,6 @@
 .containerCard {
-    max-width: 500px;  
+    max-width: 450px;  
     background-color: rgb(0, 0, 0);
-   
+    overflow: hidden;
+    margin-top: 40px;
 }
