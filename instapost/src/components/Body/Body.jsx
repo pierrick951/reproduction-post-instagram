@@ -48,7 +48,7 @@ export default function Body() {
         <img 
         onClick={() => Saveclick()}
         className="icoSave" src={isSave ? saveGold : save} alt="icone en forme de coeur" />
-        <p>{like}</p>
+        <p className="textLike"> Aimé par <span>Jhon_Doe</span> et {like} autre personnes</p>
       </div>
     </div>
   )
