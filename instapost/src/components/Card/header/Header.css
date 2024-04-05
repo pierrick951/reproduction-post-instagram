@@ -1,13 +1,26 @@
 *,
 ::before,
 ::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .headerContainer {
     background-color: black;
-    padding-inline: 32px;
-    padding-block: 20px;
+    display: flex;
+    align-items: center;
+    padding-block: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.headerContainer__img {
+    width: 32px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+p {
+    padding-inline: 12px;
 }

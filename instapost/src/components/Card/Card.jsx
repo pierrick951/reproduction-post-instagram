@@ -4,8 +4,7 @@ import './Card.css';
 
 export default function Card() {
   return (
-    <div className="containerCard">
-      
+    <div className="containerCard">     
       <Header/>
     </div>
   )
