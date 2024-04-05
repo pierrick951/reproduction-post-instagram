@@ -1,0 +1,13 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.headerContainer {
+    background-color: black;
+    padding-inline: 32px;
+    padding-block: 20px;
+}

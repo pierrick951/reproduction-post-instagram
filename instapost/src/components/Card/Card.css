@@ -1,4 +1,7 @@
 .containerCard {
-    background-color: red;
-
+    max-width: 500px;
+    
+    background-color: rgb(0, 0, 0);
+    
+ 
 }
