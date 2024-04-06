@@ -7,6 +7,7 @@ import send from '../../assets/svg/partager.svg'
 import save from '../../assets/svg/save.svg'
 import coeurRouge from '../../assets/svg/coeurRouge.svg'
 import saveGold from '../../assets/svg/saveGold.svg'
+import panda from '../../assets/panda.jpg'
 
 
 export default function Body() {
@@ -50,13 +51,16 @@ export default function Body() {
           onClick={() => Saveclick()}
           className="icoSave" src={isSave ? saveGold : save} alt="icone en forme de coeur" />
       </div>
-      <p>
-        {isLiked ? (
-          <>Aimé par <span>Jhon_Doe</span> et {like} autre personne</>
-        ) : (
-          <>Aimé par <span>Jhon_Doe</span></>
-        )}
-      </p>
+      <div className="containerlike">
+        <img  className="photoProfil" src={panda} alt="photo profil"/>
+        <p>
+          {isLiked ? (
+            <>Aimé par <span>Jhon_Doe</span> et {like} autre personne</>
+          ) : (
+            <>Aimé par <span>Jhon_Doe</span></>
+          )}
+        </p>
+      </div>
 
     </div>
   )

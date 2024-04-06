@@ -34,4 +34,16 @@
 span {
   font-weight: bold;
   font-family: Roboto;
+  font-size: 14px;
+}
+
+.photoProfil {
+  width: 20px;
+  border-radius: 50%;
+}
+
+.containerlike {
+  display: flex;
+  margin-left: 11px;
+  padding-bottom: 5px;
 }
