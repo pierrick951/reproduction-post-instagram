@@ -26,7 +26,12 @@
 
 .textLike {
   padding-block: 10px ;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Roboto sans-serif;
   font-size: 14px;
   max-width: 230px;
+}
+
+span {
+  font-weight: bold;
+  font-family: Roboto;
 }

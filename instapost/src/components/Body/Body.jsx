@@ -12,7 +12,7 @@ import saveGold from '../../assets/svg/saveGold.svg'
 export default function Body() {
   const [like, setLike] = useState(0)
   const [isLiked, setIsLiked] = useState(false)
-  const [isSave, setSaved] = useState(false) 
+  const [isSave, setSaved] = useState(false)
 
 
   function handleClick() {
@@ -20,21 +20,22 @@ export default function Body() {
       setLike(like + 1);
       setIsLiked(true);
     }
-    else  {
-      setLike(like -1)
+    else {
+      setLike(like - 1)
       setIsLiked(false)
     }
   }
 
-  function Saveclick(){
-    if (!isSave){
+  function Saveclick() {
+    if (!isSave) {
       setSaved(true)
     }
     else {
       setSaved(false)
     }
   }
-  
+
+
 
   return (
     <div>
@@ -45,11 +46,18 @@ export default function Body() {
 
         <img src={chat} alt="pour laisser un commentaire" />
         <img src={send} alt="icone en forme de coeur" />
-        <img 
-        onClick={() => Saveclick()}
-        className="icoSave" src={isSave ? saveGold : save} alt="icone en forme de coeur" />
-        <p className="textLike"> Aimé par <span>Jhon_Doe</span> et {like} autre personnes</p>
+        <img
+          onClick={() => Saveclick()}
+          className="icoSave" src={isSave ? saveGold : save} alt="icone en forme de coeur" />
       </div>
+      <p>
+        {isLiked ? (
+          <>Aimé par <span>Jhon_Doe</span> et {like} autre personne</>
+        ) : (
+          <>Aimé par <span>Jhon_Doe</span></>
+        )}
+      </p>
+
     </div>
   )
 }
