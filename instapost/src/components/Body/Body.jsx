@@ -46,7 +46,7 @@ export default function Body() {
           onClick={() => handleClick()} src={isLiked ? coeurRouge : coeur} alt="icone en forme de coeur" />
 
         <img src={chat} alt="pour laisser un commentaire" />
-        <img src={send} alt="icone en forme de coeur" />
+        <img src={send} alt="icone en forme de coeur"/>
         <img
           onClick={() => Saveclick()}
           className="icoSave" src={isSave ? saveGold : save} alt="icone en forme de coeur" />

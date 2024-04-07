@@ -9,3 +9,30 @@
         color: grey;
     }
 }
+
+.comments {
+    padding-block: 10px;
+
+    & span {
+        font-size: 13px;
+    }
+}
+.textBottom {
+    font-family: Roboto;
+    font-size: 14px;
+    padding-bottom: 5px;
+
+    & span {
+        font-size: 12px;
+    }
+}
+.containerName {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconeLike{
+    width: 12px;
+    margin-right: 20px;
+}
