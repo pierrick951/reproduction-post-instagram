@@ -1,0 +1,11 @@
+.publication {
+    font-family: Roboto;
+    font-weight: none;
+    font-size: 14px;
+    & span {
+        padding-inline: 5px;
+    }
+    & small {
+        color: grey;
+    }
+}
