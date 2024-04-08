@@ -7,8 +7,9 @@ This project aims to create a mini React component simulating a functional Insta
 ***Tasks***
 
 - The heart should be fillable in red ❤️ and the save icon in gold 💛.
-- A mini burger menu 🍔 should also be integrated as shown in the model.
+
 - The number of likes should increment or decrement based on whether the heart is red or not.
+
 - Clicking "see more" should be functional.
 ---
 
